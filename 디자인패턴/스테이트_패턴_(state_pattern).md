@@ -75,6 +75,43 @@ class RedTrafficLightState {
 
 그럼 `context.currentState` 값은 어디서 바꿔야 하는가? 놀랍게도 스테이트 패턴은 그거에 대한 해답을 제공하진 않는다. 이것은 이 패턴에 대한 장점인 동시에 단점이기도 하다.
 
+## 통화
+
+caller -> 전화걸고 ->  Offer -> connect
+callee -> 전화를 수락하거나 거절하기 -> Answer -> connect
+
+```swift
+
+class DirectCall { // context
+    var currentState: CallState
+    
+    func changeState(to newstate: CallState) {
+    }
+    
+    func end() {
+        // 메
+    }
+}
+
+protocol CallState {
+    func makeCall(context: DirectCall)
+    func cancel(context: DirectCall)
+    func accept(context: DirectCall)
+    func decline(context: DirectCall)
+    func end(context: DirectCall)
+}
+
+class OngoingCallState {
+    func cancel(context: DirectCall) {
+        context.end()
+    }
+}
+
+class OfferState
+
+```
+
+
 ## 요점
 
 - 스테이트 패턴은 런타임 동안 객체가 행동을 바꿀 수 있도록 한다.
