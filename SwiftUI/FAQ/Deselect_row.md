@@ -31,9 +31,9 @@ List {
         Row()
             .buttonStyle(.plain) // 2
     }
-    .listStyle(.plain)
-    .buttonStyle(.plain) // 1
 }
+.listStyle(.plain)
+.buttonStyle(.plain) // 1
 ```
 
 ### 1번 경우
