@@ -32,4 +32,4 @@ func swipeActions<T>(
 
 [관련 애플 개발 문서](https://developer.apple.com/documentation/SwiftUI/View/swipeActions(edge:allowsFullSwipe:content:))에서 아래와 같은 내용을 찾아볼 수 있다.
 
-> **Apple 왈** "For labels or images that appear in swipe actions, SwiftUI automatically applies the *fill* symbol variant, as shown above."
+> For labels or images that appear in swipe actions, SwiftUI automatically applies the *fill* symbol variant, as shown above.
