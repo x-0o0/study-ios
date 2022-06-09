@@ -34,7 +34,7 @@ class SomeViewController: UIViewController, Delegate {
 
 하지만 만약 delegate 객체가 여러개가 필요하다면? 이런 경우 멀티캐스트 델리게이트 패턴 (Multicast delegate pattern)을 쓴다.
 
-### Delegate Protocol**
+### Delegate Protocol
 
 델리게이트 프로토콜.
 
