@@ -55,7 +55,7 @@ struct ScoreView: View {
 
 #### 애플의 얘기도 들어보자
 
-[State](https://developer.apple.com/documentation/swiftui/state)
+[ Developer Doc - State](https://developer.apple.com/documentation/swiftui/state)
 
 > **Apple왈** property wrapper 타입으로 SwiftUI에 의해 관리되는 값을 읽고 쓸 수 있다.
 > 
