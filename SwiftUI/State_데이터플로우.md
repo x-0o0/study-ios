@@ -53,6 +53,8 @@ struct ScoreView: View {
 다른 인스턴스를 참조하는 방식으로 이제 State 안의 value를 변경할 수 있다.
 뷰도 업데이트 된다.
 
+#### 애플의 얘기도 들어보자
+
 [State](https://developer.apple.com/documentation/swiftui/state)
 
 > **Apple왈** property wrapper 타입으로 SwiftUI에 의해 관리되는 값을 읽고 쓸 수 있다.
@@ -60,6 +62,8 @@ struct ScoreView: View {
 > SwiftUI는 state로 선언된 모든 프로퍼티의 저장소를 관리한다. 
 > 상태값이 변하면 뷰는 기존 모양을 무효화하고 body를 재계산한다.
 > 뷰를 위한 *Single Source of Truth* 로 state를 사용하면 된다.
+
+#### 사용
 
 ```swift
 @State var numberOfAnswered = 0
@@ -110,6 +114,7 @@ ScoreView(
   numberOfAnswered: $numberOfAnswered
 )
 // ScoreView로 바인딩 전달 -> 동일 데이터에 접근 가능
+```
 
 ## 요점
 
