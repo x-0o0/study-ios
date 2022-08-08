@@ -10,7 +10,7 @@
 
 struct로 상태를 선언한다면?
 - value type이라 mutating error 발생
-  - body는 자신이 포함된 sturct를 mutate 할 수 없음
+  - body는 자신이 포함된 struct를 mutate 할 수 없음
 
 class 로 상태를 선언한다면?
 - 상태값은 변하나 뷰 업데이트가 안됨
