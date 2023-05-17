@@ -1,6 +1,7 @@
 # Effect
 
-> 어제 Store 를 공부하면서 Reducer를 공부했고, Reducer를 공부하면서 Effect를 잘 써야 `ReducerProtocol` 의 메소드인 `reduce(into:inout:)` 을 올바르게 잘 구현할 수 있다는 생각을 했다.
+## 왜 공부하는가?
+어제 Store 를 공부하면서 Reducer를 공부했고, Reducer를 공부하면서 Effect를 잘 써야 `ReducerProtocol` 의 메소드인 `reduce(into:inout:)` 을 올바르게 잘 구현할 수 있다는 생각을 했다.
 그래서 이번엔 Effect를 공부하고자 한다.
 
 ## 복습
@@ -24,7 +25,7 @@ TCA 의 Essentials 을 모아둔 튜토리얼 부터 정독했다.
 
 [튜토리얼 | 사이드이펙트](https://pointfreeco.github.io/swift-composable-architecture/main/tutorials/composablearchitecture/02-addingsideeffects) 를 보면 다음과 같은 Effect들을 소개한다.
 
-##
+## Network 요청
 
 버튼을 탭했을 때 API 통신을 하는 액션이 있고 아래와 같이 코드를 짰다고 해보자.
 
@@ -61,7 +62,7 @@ case .factButtonTapped:
 ```
 원하는 응답 값을 받았으면 이를 `TaskResult` 를 파라미터로 하는 Action 안에 할당하고 `await send(_:)` 를 호출한다.
 
-##
+## 타이머
 
 이번엔 스케쥴 타이머같은 것을 사용할 때의 Effect 를 알아보자.
 
@@ -85,7 +86,7 @@ case .timerTick:
       return .none
 ```
 
-`while true` 가 아닌 취소가능하도록 컨디션을 수정하고 싶다면,
+타이머를 취소하고 싶다면
 
 ```swift
 enum CancelID { case timer }
