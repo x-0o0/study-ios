@@ -14,7 +14,7 @@ iOS 공부 블로그 용으로 꽤 좋다는 생각이 들었다.
 
 Let's go
 
-## 스위프트
+## Topics
 
 ### 스위프트 언어 파고들기
 - <doc:/Others/Copy>
@@ -23,15 +23,13 @@ Let's go
 - <doc:/Others/Swift_Performance_이해하기_제너릭>
 - <doc:/Others/URL_returns_nil>
 
-## SwiftUI
-
-### Basics
+### SwiftUI: Basics
 - <doc:/SwiftUI/컨트롤-Text&Image>
 - <doc:/SwiftUI/컨트롤과_사용자입력>
 - <doc:/SwiftUI/테스팅&디버깅>
 - <doc:/SwiftUI/State_데이터플로우>
 
-### FAQ
+### SwiftUI: FAQ
 - <doc:/SwiftUI/FAQ/Bottom_sheet_view_어떻게?>
 - <doc:/SwiftUI/FAQ/Deselect_row>
 - <doc:/SwiftUI/FAQ/LongPress_적용시_스크롤_안되는_이슈>
@@ -42,7 +40,7 @@ Let's go
 - <doc:/SwiftUI/FAQ/아이콘이미지_색상바꾸기>
 - <doc:/SwiftUI/FAQ/정사각형사이즈_최대로?>
 
-### TCA
+### SwiftUI: TCA
 - <doc:/SwiftUI/TCA/00_TCA_관련_링크모음>
 - <doc:/SwiftUI/TCA/01_TCA란?>
 - <doc:/SwiftUI/TCA/02_이벤트_발생_시_Action_State_Reducer_동작과정>
@@ -53,8 +51,6 @@ Let's go
 
 ### WWDC22
 - <doc:/SwiftUI/WWDC22/What's_new_in_SwiftUI>
-
-## 여러가지
 
 ### 앱링크
 - <doc:/AppLink/URLScheme>
