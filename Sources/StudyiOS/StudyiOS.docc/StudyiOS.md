@@ -18,6 +18,7 @@ Let's go
 ## Topics
 
 ### 스위프트 언어 파고들기
+
 - <doc:/Others/Copy>
 - <doc:/Others/Swift_Performance_이해하기_Reference_Counting>
 - <doc:/Others/Swift_Performance_이해하기_Static_&_Dynamic_Dispatch>
@@ -25,12 +26,14 @@ Let's go
 - <doc:/Others/URL_returns_nil>
 
 ### SwiftUI: Basics
+
 - <doc:/SwiftUI/컨트롤-Text&Image>
 - <doc:/SwiftUI/컨트롤과_사용자입력>
 - <doc:/SwiftUI/테스팅&디버깅>
 - <doc:/SwiftUI/State_데이터플로우>
 
 ### SwiftUI: FAQ
+
 - <doc:/SwiftUI/FAQ/Bottom_sheet_view_어떻게?>
 - <doc:/SwiftUI/FAQ/Deselect_row>
 - <doc:/SwiftUI/FAQ/LongPress_적용시_스크롤_안되는_이슈>
@@ -49,48 +52,63 @@ Let's go
 - <doc:/SwiftUI/TCA/04_Effect>
 - <doc:/SwiftUI/TCA/05_ViewStore>
 - <doc:/SwiftUI/TCA/06_SwiftUI_bindings>
+- <doc:/SwiftUI/TCA/07_Scope&ifLet&ForEach&Dependencies>
+- <doc:/SwiftUI/TCA/08_Effect&Animation>
+- <doc:/SwiftUI/TCA/09_Dependency>
 
 ### WWDC22
+
 - <doc:/SwiftUI/WWDC22/What's_new_in_SwiftUI>
 
 ### 앱링크
+
 - <doc:/AppLink/URLScheme>
 - <doc:/AppLink/앱과_웹사이트가_컨텐츠를_연결하도록_하기>
 - <doc:/AppLink/연결도메인_지원하기>
 
 ### 애플로 로그인하기 & SNS 로그인
+
 - <doc:/AuthenticationServices/SwiftUI_모델생성>
 - <doc:/AuthenticationServices/SwiftUI_뷰(SignInWithAppleButton)>
 - <doc:/AuthenticationServices/애플로_로그인하기>
 - <doc:/AuthenticationServices/카카오로_로그인하기>
 
 ### 캐싱하기
+
 - <doc:/Cache/캐싱하기>
 
 ### 스위프트 비동기성 (Swift Concurrency)
+
 - <doc:/Concurrency/Actor>
 - <doc:/Concurrency/async_await>
 - <doc:/Concurrency/Task>
 
 ### 날짜 다루기
+
 - <doc:/Date/DateFormat사이트>
 
 ### Git
+
 - <doc:/Git/fetch등_명령어_실행이_안될때>
 
 ### GitHub Actions
+
 - <doc:/GitHub_Actions/Swift_Package_DocC>
 
 ### 스위프트 린트 (Swift Lint)
+
 - <doc:/Lint/SwiftLint_via_Homebrew>
 
 ### UIKit
+
 - <doc:/UIKit/AppDelegate_에서_UIViewController_인스턴스로_띄우기>
 
 ### 유닛 테스트
+
 - <doc:/UnitTests/로컬_JSON파일_사용하기>
 
 ### 디자인 패턴
+
 - <doc:/디자인패턴/멀티캐스트_델리게이트_패턴_(Multicast_Delegate_Pattern)>
 - <doc:/디자인패턴/메멘토패턴_(memento_pattern)>
 - <doc:/디자인패턴/스테이트_패턴_(state_pattern)>
@@ -101,13 +119,16 @@ Let's go
 - <doc:/디자인패턴/플라이웨이트_패턴_(Flyweight_Pattern)>
 
 ### 스위프트 패키지
+
 - <doc:/스위프트패키지/Docc_추가하기>
 - <doc:/스위프트패키지/로컬스위프트패키지_추가하기>
 - <doc:/스위프트패키지/애셋제공하기>
 - <doc:/스위프트패키지/특정버전_제거하기>
 
 ### 앱배포
+
 - <doc:/앱배포/Error_no_accounts_with_app_store_connect_access_have_been_found_for_the_team>
 
 ### 팀개발
+
 - <doc:/팀개발/iOS_공동개발_가이드>
