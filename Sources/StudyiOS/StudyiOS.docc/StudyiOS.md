@@ -55,6 +55,7 @@ Let's go
 - <doc:/SwiftUI/TCA/07_Scope&ifLet&ForEach&Dependencies>
 - <doc:/SwiftUI/TCA/08_Effect&Animation>
 - <doc:/SwiftUI/TCA/09_Dependency>
+- <doc:/SwiftUI/TCA/10_SwitchStore&CaseLet>
 
 ### WWDC22
 
