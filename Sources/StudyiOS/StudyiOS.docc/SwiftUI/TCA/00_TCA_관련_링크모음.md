@@ -12,6 +12,9 @@
 ### Examples
 > **Official examples** [Examples](https://github.com/pointfreeco/swift-composable-architecture#examples)
 
+### Cases
+- [Delegate Pattern](https://pointfreeco.github.io/swift-composable-architecture/main/tutorials/composablearchitecture/02-01-yourfirstpresentation#Child-to-parent-communication)
+
 > **NOTE**: 옛 버전은 0.53 미만 버전을 말합니다.
 
 - [Showcases | pointfreeco](https://github.com/pointfreeco/swift-composable-architecture/discussions/1145)
