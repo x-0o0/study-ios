@@ -1,3 +1,7 @@
+# TextEditor 투명한 백그라운드
+
+## 해결방법
+
 ```swift
 TextEditor(text: $text)
     .scrollContentBackground(.hidden) // 1

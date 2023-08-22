@@ -1,6 +1,7 @@
-> Reference: [The Composable Architecture — Visualize Data Flows With a Diagram](https://medium.com/swlh/the-composable-architecture-visualize-data-flows-with-a-diagram-817306831508)
+# Part 1. TCA 란?
 
-# TCA 란?
+
+> Reference: [The Composable Architecture — Visualize Data Flows With a Diagram](https://medium.com/swlh/the-composable-architecture-visualize-data-flows-with-a-diagram-817306831508)
 
 ## 버전
 

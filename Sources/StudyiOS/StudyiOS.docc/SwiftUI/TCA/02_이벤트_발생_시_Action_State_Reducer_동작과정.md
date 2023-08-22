@@ -1,8 +1,11 @@
+# Part 2. 이벤트 발생 시 Action, State, Reducer 의 동작과정
+
+> **참고** https://0urtrees.tistory.com/359
+
 TCA 설명에서 ObservableObject와 StateObject, ObservedObject 등이 언급되지 않아서, 
 애플이 SwiftUI에 사용하라고 만든 것을 왜 안 쓰는데 과연 적합한 패턴인가? 아니면 TCA 내부에서 사용 중이라 개발단에서 필요없는 것인가?
 하는 궁금증이 생겨 검색을 했다.
 
-> **참고** https://0urtrees.tistory.com/359
 
 ## View & Store
 

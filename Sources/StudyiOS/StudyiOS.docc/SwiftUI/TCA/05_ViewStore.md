@@ -1,6 +1,6 @@
-# ViewStore
+# Part 5. ViewStore
 
-`ViewStore`는 `state` 변화를 지켜보고, `action`을 보내는 객체. 뷰에서 가장 흔히 사용되지만 뷰 외에도 state 를 옵저빙하고 와 action를 전달해야하는 곳 어디든 이유만 타당하다면 쓸 수 있다.
+`ViewStore`는 `state` 변화를 지켜보고, `action`을 보내는 객체. 뷰에서 가장 흔히 사용되지만 뷰 외에도 state 를 옵저빙하고 action를 전달해야하는 곳 어디든 이유만 타당하다면 쓸 수 있다.
 
 ## 왜 공부하는가?
 

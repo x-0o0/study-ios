@@ -1,3 +1,9 @@
+# TextField 텍스트 전부 소문자로 입력받기
+
+Lowercased Textfield
+
+## 해결방법
+
 ```swift
 TextField("placeholder", text: $text)
     .textInputAutocapitalization(.never) // 1

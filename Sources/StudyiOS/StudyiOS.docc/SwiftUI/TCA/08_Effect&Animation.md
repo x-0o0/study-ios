@@ -1,4 +1,4 @@
-# Effect & Animation
+# Part 8. Effect & Animation
 
 ```swift
 struct AuthView: View {

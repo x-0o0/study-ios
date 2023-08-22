@@ -6,6 +6,7 @@ task 에서는 비동기 처리에 적합하고, 뷰가 사라지면 스유가 �
 뷰가 뜰 때 처리하고자 하는 코드가 자동으로 취소를 요구하는 비동기 코드면 task를 아니면 onAppear.
 
 ## 개요
+
 ### task(priority:_:)
 
 > **[애플문서](https://developer.apple.com/documentation/swiftui/view/task(priority:_:)#:~:text=If%20the%20task%20doesn%E2%80%99t%20finish%20before%20SwiftUI%20removes%20the%20view%20or%20the%20view%20changes%20identity%2C%20SwiftUI%20cancels%20the%20task.):**

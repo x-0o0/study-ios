@@ -1,5 +1,4 @@
-
-# 뷰 생성하기
+# 뷰 생성하기 - Text & Image
 
 ```swift
 struct WelcomeView: View {

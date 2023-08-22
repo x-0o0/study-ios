@@ -1,4 +1,4 @@
-# Effect
+# Part 4. Effect
 
 ## 왜 공부하는가?
 어제 Store 를 공부하면서 Reducer를 공부했고, Reducer를 공부하면서 Effect를 잘 써야 `ReducerProtocol` 의 메소드인 `reduce(into:inout:)` 을 올바르게 잘 구현할 수 있다는 생각을 했다.

@@ -1,3 +1,5 @@
+# 스와이프 액션의 심볼이 왜 fill 로만 적용될까
+
 ## 결론 미리보기
 
 > **Apple 왈** "For labels or images that appear in swipe actions, SwiftUI automatically applies the *fill* symbol variant, as shown above."

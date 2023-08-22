@@ -1,4 +1,4 @@
-# SwitchStore & CaseLet
+# Part 10. SwitchStore & CaseLet
 
 ## 이슈
 

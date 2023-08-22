@@ -1,4 +1,4 @@
-# Scope & ifLet & ForEach & Dependencies
+# Part 7. Scope & ifLet & ForEach & Dependencies
 
 ## Scope
 

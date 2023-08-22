@@ -1,8 +1,8 @@
-# Dependency
-
-> Note: [Offical Documentations | pointfreeco](https://pointfreeco.github.io/swift-dependencies/main/documentation/dependencies) and [GitHub Repo | pointfreeco](https://github.com/pointfreeco/swift-dependencies)
+# Part 9. Dependency
 
 ## 개요
+
+> Note: [Offical Documentations | pointfreeco](https://pointfreeco.github.io/swift-dependencies/main/documentation/dependencies) and [GitHub Repo | pointfreeco](https://github.com/pointfreeco/swift-dependencies)
 
 ```swift
 @Dependency(\.continuousClock) var clock  // Controllable way to sleep a task

@@ -1,4 +1,4 @@
-# SwiftUI bindings + TCA
+# Part 6. SwiftUI bindings + TCA
 
 ## 왜 공부하는가?
 
