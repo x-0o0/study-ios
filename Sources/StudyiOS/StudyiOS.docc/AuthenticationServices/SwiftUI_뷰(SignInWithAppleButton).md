@@ -1,5 +1,7 @@
 # SwiftUI 뷰 (SignInWithAppleButton)
 
+## 개요
+
 Fruta 앱 하단에 아래와 같은 뷰가 들어간다.
 
 ```swift

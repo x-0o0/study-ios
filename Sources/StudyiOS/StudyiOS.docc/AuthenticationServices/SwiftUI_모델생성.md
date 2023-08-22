@@ -1,5 +1,7 @@
 # SwiftUI 모델생성
 
+## 개요
+
 애플은 `ObservableObject` 도 *Model* 폴더에 포함시킨다... (Fruta 샘플앱 참고)
 
 암튼 애플은 `AuthenticationServices` 를 어떻게 쓰는지 알아보자.

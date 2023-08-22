@@ -1,12 +1,14 @@
-> **들어가기 앞서 메멘토란?** The object that you keep to remember 무시기. 즉 기억하기 위한 물건, 증표
-
 # 메멘토 패턴
-
-> 다음 내용은 위키백과를 참고한 내용입니다.
 
 객체를 저장하고 복구할 수 있도록 하는 패턴.
 
+## 들어가기 앞서 메멘토란?
+
+The object that you keep to remember 무시기. 즉 기억하기 위한 물건, 증표
+
 ## 구성 
+
+> 다음 내용은 위키백과를 참고한 내용입니다.
 
 세 가지로 구성: 오리지네이터(Orignator), 케어테이커(Caretaker), 메멘토(Memento)
 

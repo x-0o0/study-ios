@@ -1,5 +1,7 @@
 # Swift Performance 이해하기 (Reference Counting)
 
+## 개요
+
 **String은 struct 이지만 heap에 할당된다**
 
 struct 안에 reference type을 많이 들고 있으면 

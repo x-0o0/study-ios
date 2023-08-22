@@ -1,12 +1,12 @@
-<img width="734" alt="Screen Shot 2022-06-09 at 10 52 14 PM" src="https://user-images.githubusercontent.com/53814741/172863740-c8c73d5c-5131-45b9-b0af-69ecdab199bb.png">
-
-<img width="633" alt="Screen Shot 2022-06-09 at 10 08 37 PM" src="https://user-images.githubusercontent.com/53814741/172854614-349c27a5-d0db-4428-aa9f-865bd7d20f90.png">
-
 # 파사드 패턴
 
 복잡한 시스템을 잘 모아서 하나의 심플한 인터페이스를 제공하는 것.
 
 ## 개요
+
+<img width="734" alt="Screen Shot 2022-06-09 at 10 52 14 PM" src="https://user-images.githubusercontent.com/53814741/172863740-c8c73d5c-5131-45b9-b0af-69ecdab199bb.png">
+
+<img width="633" alt="Screen Shot 2022-06-09 at 10 08 37 PM" src="https://user-images.githubusercontent.com/53814741/172854614-349c27a5-d0db-4428-aa9f-865bd7d20f90.png">
 
 패턴의 구성요소는 다음과 같다.
 

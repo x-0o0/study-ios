@@ -1,5 +1,7 @@
 # fetch등 명령어 실행이 안될때
 
+## 해결방법
+
 ```bash
 $ ssh-agent s
 $ ssh-add ~/.ssh/id_rsa
