@@ -14,3 +14,11 @@ DocC 쓰면 지금 기존의 마크다운으로 쌓아올린 문서들도 구조
 iOS 공부 블로그 용으로 꽤 좋다는 생각이 들었다.
 
 Let's go
+
+### 배포
+
+main 에 새로운 push 가 발생하면 자동으로 GitHub Actions를 통해 깃헙 페이지에 배포가 된다.
+> URL: https://jaesung-0o0.github.io/study-ios/documentation/studyios
+
+또한 새로운 주제의 내용이 추가될때마다 태그를 통해 Release 를 할 예정이다.
+> 릴리즈 보기: https://github.com/jaesung-0o0/study-ios/releases
