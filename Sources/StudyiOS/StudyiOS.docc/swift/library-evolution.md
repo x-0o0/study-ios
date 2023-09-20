@@ -59,3 +59,105 @@ $ swiftc Tack.swift Barn.swift Hay.swift \
 >
 > `dylib` 는 동적라이브러리(Dynamic Library) 를 의미합니다.
 
+## 라이브러리 에볼루션 모델
+
+라이브러리 에볼루션은 프레임워크에 특정 변경이 발생해도 바이너리 호환성을 깨지지 않게 합니다.
+> **NOTE**
+>
+> 이와 같이 새버전이 구버전과 소스 호환성 & 바이너리 호환성 둘 다 유지하는 경우 이 프레임워크는 "탄력이 있다(resilient)" 라고 표현합니다.
+
+### ABI 퍼블릭 선언
+ABI 퍼블릭 선언은 다른 스위프트 모듈에서 참조할 수 있는 선언을 말합니다.
+- 모든 `public` 은 ABI-public
+- `@usableFromInline` 속성을 사용해 선언하는 경우 public이 아니더라도 ABI-public. @inline 코드에서 참조할 수 있음을 의미합니다.
+
+### ABI 프라이빗
+ABI-public 이 아니라고 명시하는 방식으로 선언하는 것을 ABI 프라이빗(ABI-private)이라고 합니다.
+`@usableFromInline` 속성이 없는 `private`, `fileprivate`, `internal` 이 이에 해당합니다.
+
+### @frozen
+`@frozen` 속성도 라이브러리 에볼루션과 관련이 있습니다. 이 속성은 ABI 퍼블릭 struct 나 enum의 바이너리 인터페이스를 변경 시켜서 더 자세한 구현 내용을 노출 시킵니다.
+
+### 탄력적 변경(Resilient changes)의 예시
+- ABI 프라이빗 선언은 추가/제거/변경이 맘대로 가능한게 일반적인 원칙. 명시적으로 ABI 퍼블릭으로 선언된 것만 프레임워크의 바이너리 인터페이스에 포함됨.
+- 소스 파일 내의 상단(top-level) 선언부들은 재정렬될 수 있고, 동일 프레임워크 내에서 다른 소스 파일로 이동할 수 있음. 타입 내 멤버들(프로퍼티, 메소드) 또는 extension 은 재정렬될 수 있음. 단, `@frozen` 을 사용해 선언된 stored property와 struct, enum 내의 enum case 들에 한해서 예외 적용
+
+예를 들어 아래 탑레벨 함수와 두개의 메소드는 바이너리 호환성을 깨뜨리지 않고 재정렬될 수 있습니다.
+```swift
+// top-level 함수
+public func sum<T: Sequence>(_ seq: T) -> Int where T.Element == Int {
+   return array.reduce(0, (+))
+}
+
+// 메소드
+open class NetworkHandle {
+   open func open() { }
+   open func close() { }
+}
+```
+대조적으로,`@frozen` enum 에서 두개의 `case`는 재정렬 되지 않습니다. 하지만 메소드는 재정렬이 될 수 있습니다. 그리고 메소드와 `case` 의 상대적인 순서는 변경될 수 있습니다.
+```swift
+@frzen public enum Shape {
+   case rect(w: Int, h: Int)
+   case circle(radius: Int)
+
+   public func area() -> Int { ... }
+   public func circumference() -> Int { ... }
+}
+```
+
+- 소스파일의 top level 에 선언을 추가할 수 있습니다.
+- class, struct, enum 타입에 `@frozen` 이 사용되지 않으면 멤버들을 추가할 수 있습니다. 만약 `@frozen` 을 사용하는 타입이면, stored 프로퍼티 나 enum case 들이 추가될 수 없습니다. 다른 종류의 멤버들은 제약없이 추가될 수 있습니다.
+- 변경할 수 없는(immutable) 프로퍼티는 mutable 이 될 수 있습니다. 프로퍼티에 대한 바이너리 인터페이스는 접근자 기능(accessor functions) 의 집합이기 때문에 새로운 선언를 추가하는 것과 동등하게 mutability를 도입할 수 있습니다 (setter)
+
+예시: computed property인 `fahrenheit`` 를 주목하자
+```swift
+public struct Temperature {
+   public var celsius: Int
+   public var fahrenheit: Int { (celsius * 9) / 5 + 32 }
+}
+```
+새 버전에서 `fahrenheit` 에 `setter` 추가 가능
+```swift
+public struct Temperature {
+   public var celsius: Int
+   public var fahrenheit: Int {
+      get { (celsius * 9) / 5 + 32 }
+      set { celsius = ((newValue - 32) * 5) / 9}
+   }
+}
+```
+- 새로운 프로토콜 요구사항이 프로토콜의 extension에서 기본 구현 부를 제공하면 추가가 될 수 있다.
+```swift
+public protocol PointLike {
+   var x: Int { get }
+   var y: Int { get }
+}
+```
+새 버전은 `z` 라는 새 프로토콜 요구사항을 추가할 수 있음. 단, 기본 구현부를 제공해야함.
+```swift
+public protocol PointLike {
+   var x: Int { get }
+   var y: Int { get }
+   var z: Int { get }
+}
+
+extension PointLike {
+   public var z: Int { 0 }
+}
+```
+새 associated type 추가하는 것도 default를 명시해주면 바이너리 호환이 가능함.
+```swift
+public protocol PointLike {
+   var x: Int { get }
+   var y: Int { get }
+   var z: Int { get }
+
+   associatedtype Magnitude = Double
+
+   var magnitude: Magnitude { get }
+}
+```
+
+
+
