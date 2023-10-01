@@ -116,16 +116,18 @@ Let's go
 - <doc:/디자인패턴/State_Pattern>
 - <doc:/디자인패턴/Adapter_Pattern>
 - <doc:/디자인패턴/Strategy_Pattern>
-- <doc:/디자인패턴/파사드패턴_(Facade)>
-- <doc:/디자인패턴/팩토리패턴_(factory_pattern)>
-- <doc:/디자인패턴/플라이웨이트_패턴_(Flyweight_Pattern)>
+- <doc:/디자인패턴/Facade>
+- <doc:/디자인패턴/Factory_Pattern>
+- <doc:/디자인패턴/Flyweight_Pattern>
 
 ### 스위프트 패키지
 
 - <doc:/스위프트패키지/AddDocc>
-- <doc:/스위프트패키지/로컬스위프트패키지_추가하기>
-- <doc:/스위프트패키지/애셋제공하기>
-- <doc:/스위프트패키지/특정버전_제거하기>
+- <doc:/스위프트패키지/AddLocalSwiftPackage>
+- <doc:/스위프트패키지/AssetSupports>
+- <doc:/스위프트패키지/RemoveSpecificVersion>
+- <doc:/스위프트패키지/WhatsSPM>
+- <doc:/스위프트패키지/TargetResourceSupports>
 
 ### 앱배포
 
@@ -133,4 +135,4 @@ Let's go
 
 ### 팀개발
 
-- <doc:/팀개발/iOS_공동개발_가이드>
+- <doc:/팀개발/iOS_TeamWork_Guide>
