@@ -20,34 +20,35 @@ Let's go
 ### 스위프트 언어 파고들기
 
 - <doc:/Others/Copy>
-- <doc:/Others/Swift_Performance_이해하기_Reference_Counting>
-- <doc:/Others/Swift_Performance_이해하기_Static_&_Dynamic_Dispatch>
-- <doc:/Others/Swift_Performance_이해하기_제너릭>
+- <doc:/Others/Swift_Performance_Reference_Counting>
+- <doc:/Others/Swift_Performance_Static_n_Dynamic_Dispatch>
+- <doc:/Others/Swift_Performance_Generic>
 - <doc:/Others/URL_returns_nil>
 
 ### SwiftUI: Basics
 
-- <doc:/SwiftUI/컨트롤-Text&Image>
-- <doc:/SwiftUI/컨트롤과_사용자입력>
-- <doc:/SwiftUI/테스팅&디버깅>
-- <doc:/SwiftUI/State_데이터플로우>
+- <doc:/SwiftUI/Controls-Text_n_Image>
+- <doc:/SwiftUI/Controls-User_Input>
+- <doc:/SwiftUI/Testing_n_Debugging>
+- <doc:/SwiftUI/State_DataFlow_1>
+- <doc:/SwiftUI/Managing_ModelData>
 
 ### SwiftUI: FAQ
 
-- <doc:/SwiftUI/FAQ/Bottom_sheet_view_어떻게?>
+- <doc:/SwiftUI/FAQ/Bottom_sheet_view>
 - <doc:/SwiftUI/FAQ/Deselect_row>
-- <doc:/SwiftUI/FAQ/LongPress_적용시_스크롤_안되는_이슈>
-- <doc:/SwiftUI/FAQ/NavigationLink_disclosure_indicator_숨기기>
-- <doc:/SwiftUI/FAQ/TextEditor_투명한_백그라운드>
+- <doc:/SwiftUI/FAQ/LongPress_Interupts_Scrolling>
+- <doc:/SwiftUI/FAQ/Hide_NavigationLink_Disclosure_Indicator>
+- <doc:/SwiftUI/FAQ/TextEditor_Clear_Background>
 - <doc:/SwiftUI/FAQ/TextField_lowercase_only>
-- <doc:/SwiftUI/FAQ/스와이프액션_심볼이_왜_자꾸_fill로_적용되냐구요?>
-- <doc:/SwiftUI/FAQ/아이콘이미지_색상바꾸기>
-- <doc:/SwiftUI/FAQ/정사각형사이즈_최대로?>
+- <doc:/SwiftUI/FAQ/SwipeAction_Symbol_Always_Fill>
+- <doc:/SwiftUI/FAQ/IconImage_Color>
+- <doc:/SwiftUI/FAQ/MaxSize_Square>
 
 ### SwiftUI: TCA
-- <doc:/SwiftUI/TCA/00_TCA_관련_링크모음>
-- <doc:/SwiftUI/TCA/01_TCA란?>
-- <doc:/SwiftUI/TCA/02_이벤트_발생_시_Action_State_Reducer_동작과정>
+- <doc:/SwiftUI/TCA/00_TCA_References>
+- <doc:/SwiftUI/TCA/01_TCA_Overview>
+- <doc:/SwiftUI/TCA/Action_State_Reducer_Mechanism>
 - <doc:/SwiftUI/TCA/03_Store>
 - <doc:/SwiftUI/TCA/04_Effect>
 - <doc:/SwiftUI/TCA/05_ViewStore>
@@ -64,19 +65,19 @@ Let's go
 ### 앱링크
 
 - <doc:/AppLink/URLScheme>
-- <doc:/AppLink/앱과_웹사이트가_컨텐츠를_연결하도록_하기>
-- <doc:/AppLink/연결도메인_지원하기>
+- <doc:/AppLink/AllowingAppsAndWebsitesToLinkToYourContent>
+- <doc:/AppLink/SupoortingAssociatedDomains>
 
 ### 애플로 로그인하기 & SNS 로그인
 
-- <doc:/AuthenticationServices/SwiftUI_모델생성>
-- <doc:/AuthenticationServices/SwiftUI_뷰(SignInWithAppleButton)>
-- <doc:/AuthenticationServices/애플로_로그인하기>
-- <doc:/AuthenticationServices/카카오로_로그인하기>
+- <doc:/AuthenticationServices/SwiftUI_Model>
+- <doc:/AuthenticationServices/SwiftUI_SignInWithAppleButton>
+- <doc:/AuthenticationServices/SignInWithApple>
+- <doc:/AuthenticationServices/SignInWithKakao>
 
 ### 캐싱하기
 
-- <doc:/Cache/캐싱하기>
+- <doc:/Cache/Caching>
 
 ### 스위프트 비동기성 (Swift Concurrency)
 
@@ -86,11 +87,11 @@ Let's go
 
 ### 날짜 다루기
 
-- <doc:/Date/DateFormat사이트>
+- <doc:/Date/DateFormat_Link>
 
 ### Git
 
-- <doc:/Git/fetch등_명령어_실행이_안될때>
+- <doc:/Git/fetchNotWorking>
 
 ### GitHub Actions
 
@@ -102,29 +103,31 @@ Let's go
 
 ### UIKit
 
-- <doc:/UIKit/AppDelegate_에서_UIViewController_인스턴스로_띄우기>
+- <doc:/UIKit/HowTo_AppDelegate_Show_UIViewController_Instance>
 
 ### 유닛 테스트
 
-- <doc:/UnitTests/로컬_JSON파일_사용하기>
+- <doc:/UnitTests/Using_Local_JSON_file>
 
 ### 디자인 패턴
 
-- <doc:/디자인패턴/멀티캐스트_델리게이트_패턴_(Multicast_Delegate_Pattern)>
-- <doc:/디자인패턴/메멘토패턴_(memento_pattern)>
-- <doc:/디자인패턴/스테이트_패턴_(state_pattern)>
-- <doc:/디자인패턴/어댑터패턴>
-- <doc:/디자인패턴/전략패턴_(strategy_pattern)>
-- <doc:/디자인패턴/파사드패턴_(Facade)>
-- <doc:/디자인패턴/팩토리패턴_(factory_pattern)>
-- <doc:/디자인패턴/플라이웨이트_패턴_(Flyweight_Pattern)>
+- <doc:/디자인패턴/Multicast_Delegate_Pattern>
+- <doc:/디자인패턴/Memento_Pattern>
+- <doc:/디자인패턴/State_Pattern>
+- <doc:/디자인패턴/Adapter_Pattern>
+- <doc:/디자인패턴/Strategy_Pattern>
+- <doc:/디자인패턴/Facade>
+- <doc:/디자인패턴/Factory_Pattern>
+- <doc:/디자인패턴/Flyweight_Pattern>
 
 ### 스위프트 패키지
 
-- <doc:/스위프트패키지/Docc_추가하기>
-- <doc:/스위프트패키지/로컬스위프트패키지_추가하기>
-- <doc:/스위프트패키지/애셋제공하기>
-- <doc:/스위프트패키지/특정버전_제거하기>
+- <doc:/스위프트패키지/AddDocc>
+- <doc:/스위프트패키지/AddLocalSwiftPackage>
+- <doc:/스위프트패키지/AssetSupports>
+- <doc:/스위프트패키지/RemoveSpecificVersion>
+- <doc:/스위프트패키지/WhatsSPM>
+- <doc:/스위프트패키지/TargetResourceSupports>
 
 ### 앱배포
 
@@ -132,4 +135,4 @@ Let's go
 
 ### 팀개발
 
-- <doc:/팀개발/iOS_공동개발_가이드>
+- <doc:/팀개발/iOS_TeamWork_Guide>
