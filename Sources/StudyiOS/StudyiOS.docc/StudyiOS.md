@@ -128,6 +128,7 @@ Let's go
 - <doc:/스위프트패키지/RemoveSpecificVersion>
 - <doc:/스위프트패키지/WhatsSPM>
 - <doc:/스위프트패키지/TargetResourceSupports>
+- <doc:/스위프트패키지/231106-Deploy-to-CocoaPods>
 
 ### 앱배포
 
