@@ -24,6 +24,7 @@ Let's go
 - <doc:/Others/Swift_Performance_Static_n_Dynamic_Dispatch>
 - <doc:/Others/Swift_Performance_Generic>
 - <doc:/Others/URL_returns_nil>
+- <doc:/Others/231108-Call-as-Function>
 
 ### SwiftUI: Basics
 
