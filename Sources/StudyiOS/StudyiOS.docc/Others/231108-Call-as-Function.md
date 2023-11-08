@@ -4,7 +4,7 @@
 
 ## 1. 서론
 
-Pointfree.co 의 [ComposableArchitecure](https://github.com/pointfreeco/swift-composable-architecture) 라이브러리에서 제공하는 `Send` 타입이 `CallAsFunction` 을 구현하고 있어 다음과 같이 쓸 수 있다고 안내되어 있다.<sup>[1](#footnote_1)</sup>
+Pointfree.co 의 [ComposableArchitecure](https://github.com/pointfreeco/swift-composable-architecture) 라이브러리에서 제공하는 `Send` 타입이 `CallAsFunction` 을 구현하고 있어 다음과 같이 쓸 수 있다고 안내되어 있습니다.<sup>[1](#footnote_1)</sup>
 
 ```swift
 return .run { send in
