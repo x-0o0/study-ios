@@ -117,7 +117,7 @@ return .run { send in
 }
 ```
 
-이때 클로져가 전달하는 실행인자가 함수가 아니라 `Send` 라는 객체이다. 하지만 `Send` 가 `callAsFunction` 을 구현하고 있기 때문에 아래와 같이 함수처럼 사용할 수 있습니다.
+이때 클로져가 전달하는 실행인자가 함수가 아니라 `Send` 라는 객체입니다. 하지만 `Send` 가 `callAsFunction` 을 구현하고 있기 때문에 아래와 같이 함수처럼 사용할 수 있습니다.
 
 ```swift
 send(.started)
