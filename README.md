@@ -1,3 +1,7 @@
+> **INFO**
+>
+> [swift-study](https://github.com/x-0o0/swift-study) 레포지토리로 이동 중
+
 # StudyiOS
 
 iOS 공부 내용 끄적이는 곳
